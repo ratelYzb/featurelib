@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/featurelib-common/facade/facade.iml" filepath="$PROJECT_DIR$/featurelib-common/facade/facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/featurelib.iml" filepath="$PROJECT_DIR$/featurelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/featurelib-common/script/script.iml" filepath="$PROJECT_DIR$/featurelib-common/script/script.iml" />
     </modules>
   </component>
 </project>

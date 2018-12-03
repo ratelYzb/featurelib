@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="featurelib" />
+        <module name="facade" />
+        <module name="script" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="facade" target="1.8" />
       <module name="featurelib" target="1.8" />
+      <module name="featurelib-common" target="1.8" />
+      <module name="script" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
